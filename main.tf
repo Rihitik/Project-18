@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "gitops_bucket" {
-  bucket = "project18-rihitik-bucket"
+  bucket = "project18-rihitik-bucket-v2"
 }
